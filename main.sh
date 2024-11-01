@@ -5,21 +5,32 @@ SCRIPT_DIR="./scripts"
 
 # Array of script names
 SCRIPTS=(
-    "install-gnome-tweaks.sh"
-    "set-scroll-direction.sh"
+
+    # Nvidia Setup
+    "install-nvidia-drivers.sh"
+    "install-supergfxctl-gex.sh"
+
+    # Shell Setup
+    "install-zsh-ohmyzsh.sh"
+
+    # Install Apps
     "install-vscode.sh"
     "install-jetbrains-toolbox.sh"
-    "set-secondary-click.sh"
     "install-git-kraken.sh"
-    "install-nvidia-drivers.sh"
     "install-steam.sh"
-    "install-supergfxctl-gex.sh"
-    "install-pia-client.sh"
-    "install-zsh-ohmyzsh.sh"
+    "install-qbittorrent.sh"
     "install-slack.sh"
-    "add-maximize-minimize.sh"
     "install-podman.sh"
+    "install-gnome-tweaks.sh"
+
+    # Configure Gnome
+    "set-scroll-direction.sh"
+    "set-secondary-click.sh"
+    "add-maximize-minimize.sh"
+    "disable-hot-corners.sh"
     "remove-background-logo-extension.sh"
+    "install-wallpaper-slideshow.sh"
+    
 )
 
 # Loop through the scripts to make them executable and then run them
